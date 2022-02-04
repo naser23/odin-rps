@@ -12,7 +12,7 @@ function computerPlay() {
 
 
 function playerSelection() {
-    let playerInput = window.prompt("rock, paper, or scissors?");
+    let playerInput;
     let filteredInput = playerInput.toLowerCase().trim();
 
     if (filteredInput !== "rock" && filteredInput !== "paper" && filteredInput !== "scissors") {
@@ -24,7 +24,6 @@ function playerSelection() {
     
 }
 
-playerSelection()
 
 
 function playRound(playerChoice) {
@@ -75,6 +74,3 @@ function game(winner) {
 
 
 }
-
-// keep the winning players score.
-// game will end when someone get to 5 wins.
