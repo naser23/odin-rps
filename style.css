@@ -79,6 +79,21 @@ body {
 }
 
 /* choices section */
-#choices {
+#main {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rock,
+.paper,
+.scissors {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 75px;
+  border: 20px solid black;
+}
+
+.rock {
+  /* border: 20px solid radical-gradient(hsl(349, 71%, 52%, hsl(349, 70%, 56%))); */
 }
