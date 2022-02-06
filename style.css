@@ -34,16 +34,20 @@ body {
   height: 100vh;
   background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .scoreboard-container {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 3px solid hsl(217, 16%, 45%);
+  border-radius: 20px;
+  padding: 30px;
 }
 
 .scoreboard-content {
@@ -54,4 +58,27 @@ body {
 
 .scoreboard-content h1 {
   font-size: 2.5rem;
+}
+
+.scoreboard-right {
+  width: 9rem;
+  background-color: white;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+}
+
+.scoreboard-right h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  color: hsl(229, 64%, 46%);
+}
+
+.scoreboard-right p {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+/* choices section */
+#choices {
+  width: 100%;
 }
